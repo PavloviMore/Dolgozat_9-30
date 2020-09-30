@@ -5,13 +5,30 @@ body{
     background: lightblue;
 }
 
+/* nav */
+nav{
+    position: sticky;
+    top: 0;
+    background: goldenrod;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background: rgb(172, 147, 84);
+}
+/* /Nav */
+
 header{
     background: url("../IMG/header.jpg") top center;
     height: 350px;
-}
-
-header img{
-    position: center;
 }
 
 .wrapper{
