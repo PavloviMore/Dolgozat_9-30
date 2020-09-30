@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     margin: 0;
 }
@@ -8,13 +10,18 @@ body{
 header{
     background: url("../IMG/header.jpg") top center;
     height: 350px;
+    color: goldenrod;
+    font-size: 3.5em;
+    font-family: "Lobster",sans-serif;
+    text-align: center;
 }
 
 .wrapper{
     width: 1000px;
     background: lightcyan;
-    margin: 0 auto;
+    margin: auto auto;
 }
+
 /* nav */
 nav{
     position: sticky;
@@ -31,26 +38,59 @@ nav a{
     text-decoration: none;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-float{
+    float: left;
+    max-width: 300px;
+    height: 300px;
+    margin: 0 10px 10px 0;
+}
+
+.right-float{
+    float: right;
+    
+}
+
 nav a:hover{
     background: rgb(172, 147, 84);
 }
 /* /Nav */
 
-.aszu h1{
+/* container */
+main{
+    background: lightcyan;
+    width: 100%;
+    float: left;
+}
+
+main h2{
     padding: 25px;
 }
 
-.aszu p{
+main p{
     top: 5px;
     padding: 20px 20px;
-    float: right;
 }
+
+main img{
+    width: 350px;
+    float: left;
+    padding: 30px;
+}
+
+/* /container */
+
 
 .left-link,.right-link{
     position: fixed;
     top: 50%;
     font-size: 3em;
-    background: orange;
+    background: rgba(252, 172, 25,0.5);
     color: black;
     text-decoration: none;
     border: 2px solid black;
@@ -68,9 +108,7 @@ nav a:hover{
     right: 0;
 }
 
+.left-link:hover, .right-link:hover{
+    background: rgba(252, 172, 25,0.9);
+}
 
-
-/* .aszu img{
-    width: 350px;
-    float: ;
-} */
