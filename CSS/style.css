@@ -82,10 +82,9 @@ main img{
     float: left;
     padding: 30px;
 }
-
 /* /container */
 
-
+/* gomb */
 .left-link,.right-link{
     position: fixed;
     top: 50%;
@@ -112,3 +111,4 @@ main img{
     background: rgba(252, 172, 25,0.9);
 }
 
+/* /gomb */
