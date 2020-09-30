@@ -46,7 +46,31 @@ nav a:hover{
     float: right;
 }
 
-.aszu img{
+.left-link,.right-link{
+    position: fixed;
+    top: 50%;
+    font-size: 3em;
+    background: orange;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.left-link a, .right-link a{
+    color: black;
+    text-decoration: none;
+    padding:9px;
+}
+
+.left-link{
+    left: 0;
+}
+.right-link{
+    right: 0;
+}
+
+
+
+/* .aszu img{
     width: 350px;
     float: ;
-}
+} */
