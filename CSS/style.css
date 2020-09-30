@@ -5,6 +5,16 @@ body{
     background: lightblue;
 }
 
+header{
+    background: url("../IMG/header.jpg") top center;
+    height: 350px;
+}
+
+.wrapper{
+    width: 1000px;
+    background: lightcyan;
+    margin: 0 auto;
+}
 /* nav */
 nav{
     position: sticky;
@@ -26,13 +36,17 @@ nav a:hover{
 }
 /* /Nav */
 
-header{
-    background: url("../IMG/header.jpg") top center;
-    height: 350px;
+.aszu h1{
+    padding: 25px;
 }
 
-.wrapper{
-    width: 1000px;
-    background: lightcyan;
-    margin: 0 auto;
+.aszu p{
+    top: 5px;
+    padding: 20px 20px;
+    float: right;
+}
+
+.aszu img{
+    width: 350px;
+    float: ;
 }
